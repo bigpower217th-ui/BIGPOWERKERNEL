@@ -1,1 +1,7 @@
-# I code operating system kernels. I work alone.
+# BIGPOWERKERNEL
+
+![Logo](assets/logo.png)
+
+---
+
+### x86_64 Support Coming Soon
