@@ -1,6 +1,6 @@
 # BIGPOWERKERNEL
 
-![Logo](assest/logo.png)
+![Logo](assest/logo1.png)
 
 ---
 
