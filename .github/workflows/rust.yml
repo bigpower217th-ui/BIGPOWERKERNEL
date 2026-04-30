@@ -9,12 +9,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Tüm adımların bu klasör içinde çalışmasını sağlar
+    defaults:
+      run:
+        working-directory: ./
 
     steps:
-    - uses: actions/checkout@v4  
+    - uses: actions/checkout@v4
     
     - name: Build
-      run: cargo build --verbose 
+      run: cargo build --verbose
       
     - name: Run tests
       run: cargo test --verbose
