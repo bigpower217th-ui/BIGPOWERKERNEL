@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4  # Kodunu GitHub sunucusuna çeker
+    - uses: actions/checkout@v4  
     
     - name: Build
-      run: cargo build --verbose # Kodun derlenip derlenmediğini kontrol eder
+      run: cargo build --verbose 
       
     - name: Run tests
-      run: cargo test --verbose  # Yazdığın testleri çalıştırır
+      run: cargo test --verbose
