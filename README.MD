@@ -1,4 +1,3 @@
-# BIGPOWERKERNEL
 
 ![Logo](assest/logo1.png)
 
