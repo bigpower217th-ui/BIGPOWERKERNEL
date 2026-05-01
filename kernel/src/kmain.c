@@ -1,6 +1,6 @@
 #include "../include/kernel.h"
 
-extern void init_gdt();
+
 extern void init_gdt();
 extern void kprint(char *message);
 
